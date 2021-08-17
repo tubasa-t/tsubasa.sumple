@@ -1,0 +1,112 @@
+@media  screen and (max-width: 375px){
+  body {
+    background-color: #fff4d4c4;
+  }
+  .header .foot_tag {
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  .service {
+    height: 140vh;
+  }
+
+  .delivery .bouquet .content .first_price {
+    position: absolute;
+    top: 80px;
+  }
+
+  .delivery .bouquet .delivery_price p {
+    margin-bottom: 0;
+  }
+
+  .delivery .calender {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  .delivery .calender .title {
+    margin-top: 20px;
+  }
+
+  .flower .container {
+    height: 155vh;
+  }
+  .flower .container .title {
+    width: 90%;
+  }
+
+  .flower .container .img {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+  }
+
+  .vase .container .img {
+    position: absolute;
+    top: 180px;
+    left: -50px;
+}
+
+.vase .container .body .main_tag {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.vase .container .body .main_tag h3{
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.vase .container .body .flowerbox {
+  width: 90%;
+  justify-content: center;
+}
+
+.vase .container .body .flowerbox .bell {
+  margin-right: 20px;
+}
+
+.vase .container .body .flowerbox .moon{
+  margin-right: 20px;
+}
+
+.vase .container .body .price {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.vase .container .body .price .text {
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+
+.vase .container .body .price .sp_price  {
+  font-size: 0.7rem;
+}
+
+.vase .container .body .foot_tag {
+  text-align: center;
+}
+
+.service2 {
+
+}
+
+.service2 .service_plan {
+  margin-top: 0;
+}
+
+.service2 .service_plan .item img {
+  height: 30%;
+}
+
+.service2 .service_plan .item h2{
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.header .download_store {
+  width: 90%;
+}
+}
