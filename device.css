@@ -1,0 +1,185 @@
+@media screen and (max-width: 768px) {
+  .header .download_store{
+    background-color: rgba(255,255,255,0.8);
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    height: 80px;
+  }
+
+  .service{
+     height: 130vh; 
+  }
+
+  .service .container{
+    display: block;
+  }
+
+
+  .service .item {
+    width: 100%;
+    padding: 80px 0;
+    text-align: left;
+  }
+
+  .service .item h3{
+    margin-top: 0;
+    margin-left: 50px;
+    color: #fff;
+  }
+  .service .item p{
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 30px 30px 0;
+    color: #fff;
+  }
+
+
+  .flower .container{
+    display: block;
+    position: relative;
+    height: 730px;
+    width: 100%;
+  }
+  
+  .flower .container .img{
+    width: 50%;
+    height: 30%;
+    background-image: url(../img/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 140px;
+    left: 170px;
+  }
+
+  .flower .container .title{
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.0rem;
+  }
+
+  .flower .container .title h2{
+    padding-top: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+
+  .flower .container .body{
+    text-align: center;
+    margin: 270px auto 0;
+    width: 70%;
+  }
+  
+  .flower .container .body h3{
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  .flower .container .body p{
+    padding: 0 24px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: normal;
+  }
+
+  .vase .container{
+    height: 1000px;
+    display: block;
+    position: relative;
+  }
+
+  .vase .container .item{
+    margin: 0 auto;
+  }
+
+  .vase .container .title{
+    padding-left: 0;
+    padding-top: 6vmin;
+  }
+
+  .vase .container .title h2{
+    font-weight: normal;
+    font-size: 1.4rem;
+  }
+
+  .vase .container .title h3{
+    width: 30%;
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+
+  .vase .container .body{
+    padding-left: 0;
+    padding-top: 45vmin;
+  }
+
+  .vase .container .body .main_tag h3{
+    font-weight: normal;
+    font-size: 1.0rem;
+  }
+
+  .vase .container .body .flowerbox .bell{
+    width: 15vw;
+  }
+
+  .vase .container .body .flowerbox .moon{
+    width: 15vw;
+  }
+
+  .vase .container .body .flowerbox .candle{
+    width: 15vw;
+  }
+
+  .vase .container .img{
+    height: 300px;
+    min-width: 450px;
+    margin: 0;
+    background-image: url(../img/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+  }
+
+  .vase .container .body .price{
+    align-items: center;
+  }
+
+  .service2{
+    background-color: #fff;
+    padding: 5vmin 3vmin;
+  }
+
+  .service2 .service_plan .item p{
+    font-weight: normal;
+    font-size: 0.8rem;
+  }
+
+.download{
+  padding-bottom: 0;
+}
+
+.download .main_img {
+  background-position: center;
+}
+
+  .footer{
+    height: 550px;
+  }
+  .footer .container .content{
+    display: block;
+  }
+
+  .footer .canpany{
+    margin: 50px auto;
+    text-align: center;
+  }
+
+}
