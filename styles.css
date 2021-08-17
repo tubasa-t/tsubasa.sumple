@@ -1,0 +1,548 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  font-family: クレー;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  color: #3f434a;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  min-width: 320px;
+  background-color: "#fff";
+  font-size: 14px;
+}
+
+body, h2, h3, h4, p {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  color: #3f434a;
+}
+
+.header{
+  height: 50vh;
+  background-image: url(../img/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 160px;
+  position: relative;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+    transform: translate(0, -15px);
+  }
+
+  100%{
+    opacity: 1;
+  }
+
+}
+
+.header .main_logo{
+  height: 120px;
+  width: 130px;
+  background-image: url(../img/header_logo-0dbc9cb7c037472d3bf71fde0c1d3efd708c2c2547e9ed3e420051ca826cdad8.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto 16px;
+  animation: fadeIn 2s;
+}
+
+.header .main_tag h3{
+  margin: 24px auto;
+  color: #fff;
+  font-size: 1.3rem;
+  animation: fadeIn 2s;
+  font-weight: 400;
+}
+
+.header .download_store{
+  padding: 24px 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  left: 0;
+  animation: fadeIn 2s;
+}
+
+.header .download_store a{
+  margin-top: 8px;
+  text-decoration: none;
+  width: 50%;
+  height: 50px;
+}
+
+.header .download_store a .app_store{
+  height: 50px;
+  background-image: url(../img/Badge_Appstore-9f3fcecf66049829e600e6a1299fa1671b7c66c829f4a2a34ffd43ce946a71d7.png);
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.header .download_store a .gogleplay_store{
+  height: 50px;
+  background-image: url(../img/Badge_Googleplaystore-8a4acc6f065bfdaafb2029998f0a464d0ac4571b2b89210218c71e1ae4c8078a.png);
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+  margin-left: 8px;
+}
+
+
+.header .foot_tag{
+  margin: 48px auto 24px;
+  color: #fff;
+  position: absolute;
+  bottom: 16px;
+  right: 0;
+  left: 0;
+  animation: fadeIn 2s;
+}
+
+.header .foot_tag{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.service{
+  height: 50vh;
+}
+
+.service .container{
+  display: flex;
+  height: 100%;
+}
+
+.service .item{
+  flex-grow: 1;
+  width: calc(100% / 3);
+  text-align: center;
+  color: #fff;
+  background-color:rgba(255,255,255,0.3);
+  background-blend-mode: lighten
+}
+
+.service .select{
+  background-image: url(../img/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service .post{
+  background-image: url(../img/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service .flowerbowl{
+  background-image: url(../img/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service .item h3{
+  margin-top: 60px;
+  font-size: 1.4rem;
+}
+
+.service .item p{
+  margin-top: 60px;
+  padding: 0 24px;
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+
+.delivery{
+  height: 70vh;
+}
+
+.delivery .container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.delivery .bouquet{
+  background-color: #f7f3f3f1;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.delivery .bouquet .title{
+  margin-top: 64px;
+}
+
+.delivery .bouquet .title h2{
+  font-weight: 400;
+}
+
+.delivery .bouquet .content{
+  height: 200px;
+  margin-top: 24px;
+}
+
+.delivery .bouquet .content .first_price{
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  background-image: url(../img/price_trial-7841e1f21949dbf85c54718d5d8a7d2b669cd88c39c65441030cf3faa546c12e.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.delivery .bouquet .content .bouquet_img{
+  height: 200px;
+  margin-top: 50px;
+  background-image: url(../img/price_bouquetimg-9d58e59120ae586337c3b91a2f531ad14e7b05dc3d3ec63ab0ee68b41c8852fb\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.delivery .bouquet .bouquet_price .top{
+  margin-bottom: 0;
+}
+
+.delivery .bouquet .bouquet_price .bottom{
+  margin-top: 0;
+}
+
+.delivery .bouquet .delivery_price{
+  margin-top: 24px;
+}
+
+.delivery .bouquet .delivery_price p{
+  font-weight: normal;
+}
+
+
+.delivery .calender{
+  background-color: #fff;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.delivery .calender .title{
+  margin-top: 180px;
+}
+
+.delivery .calender .title h2{
+  font-weight: 400;
+}
+
+.delivery .calender .calender_img{
+  height: 150px;
+  background-image: url(../img/img_frequency-e1cc7b2fcecb9a18105144861c456538abb21a5049fe1d320846cb61e42d1fdd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flower{
+  background-color: #ead5dc;
+}
+
+.flower .container{
+  display: flex;
+  height: 730px;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.flower .container .item{
+  flex-grow: 1;
+}
+
+.flower .container .img{
+  height: 730px;
+  width: 50%;
+  background-image: url(../img/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flower .container .title{
+  width: 50%;
+  height: 100px;
+  margin-top: 140px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.flower .container .body{
+  width: 50%;
+  text-align: center;
+}
+
+.flower .container .body h3{
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.flower .container .body p{
+  padding: 0 24px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.vase{
+  padding-top: 6vmin;
+  background-color: #e7e3df;
+}
+
+.vase .container{
+  height: 730px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.vase .item{
+  flex-grow: 1;
+}
+
+.vase .container .title{
+  width: 400px;
+  padding: 3vmin 0 0 10vmin;
+  text-align: center;
+}
+
+.vase .container .title h2{
+  font-size: 24px;
+}
+
+.vase .container .title h3{
+  width: 50%;
+  margin: 16px auto;
+  background-color: #fff;
+}
+
+.vase .container .body{
+  width: 400px;
+  height: 480px;
+  padding: 3vmin 0 0 10vmin;
+
+}
+
+.vase .container .body .main_tag{
+  text-align: justify;
+  margin:0 0 1rem;
+}
+
+.vase .container .body .flowerbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vase .container .body .flowerbox .bell{
+  width: 10vw;
+  height: 120px;
+  background-image: url(../img/vase_bell-3242683261f661614798b85f339c955bd9a56d231773730ffd7a0ab8028747e2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.vase .container .body .flowerbox .moon{
+  width: 10vw;
+  height: 120px;
+  background-image: url(../img/vase_moon-6ef8eca3a0e8166d7a28acda51109e2050ee74ed94a839638ac1f954223647fb.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.vase .container .body .flowerbox .candle{
+  width: 10vw;
+  height: 120px;
+  background-image: url(../img/vase_candle-ca20f4ad96c7cbfe245a497dc9aa0875a4bcc5c8a14056e8297096bb720d4bdd.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.vase .container .body .flowerbox p{
+  text-align: center;
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.vase .container .body .price{
+  display: flex;
+  height: 60px;
+  margin-top: 24px;
+}
+
+.vase .container .body .price .text{
+  width: 100px;
+  margin-right: 24px;
+  padding: 4px;
+  border: 2px solid #3f434a;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.vase .container .body .price .sp_price h3{
+  margin-bottom: 0;
+}
+
+.vase .container .body .price .sp_price p{
+  margin-top: 0;
+}
+
+.vase .container .body .foot_tag{
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+
+.vase .container .img{
+  height: 780px;
+  min-width: 450px;
+  margin: 0;
+  background-image: url(../img/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.service2{
+  background-color: #fff;
+  padding: 10vmin 12vmin;
+}
+
+.service2 .main_tag{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service2 .service_plan{
+  display: flex;
+  margin: 48px auto 0;
+}
+
+.service2 .service_plan .item{
+  width: calc(100% / 3);
+  text-align: center;
+  margin: 0 8px 0;
+}
+
+.service2 .service_plan .item p{
+  font-weight: bold;
+}
+
+.download{
+  height: 450px;
+  padding: 5vmin 20vmin;
+  background-color: #efdfc5;
+}
+
+.download .container{
+  height: 100%;
+  width: 100%;
+}
+
+.download .main_img{
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.download .main_logo{
+  height: 100px;
+  width: 180px;
+  background-image: url(../img/logo_vertical_navy-a362e5ea10920c0f986d06be36f717a75260d77bfaa4543c4dad42c188d87568.png);
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download .main_logo h3{
+  margin: 16x auto ;
+  padding-top: 120px;
+}
+
+.footer{
+  height: 400px;
+  padding: 0 8vmin;
+  position: relative;
+  background-color: #3f434a;
+}
+
+.footer .instagram{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.footer .instagram img{
+  height: 75px;
+  width: 75px;
+
+}
+
+.footer .container{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.footer .container .content{
+  display: flex;
+  margin-top: 60px;
+}
+
+.footer .container .content a{
+  text-decoration: none;
+}
+
+.footer .container .content h3{
+  padding-right: 5vmin;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer .canpany{
+  margin: 130px auto;
+  text-align: center;
+}
+
+.footer .canpany p{
+  color: #fff;
+}
+
