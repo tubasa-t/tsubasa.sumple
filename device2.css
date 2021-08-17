@@ -1,0 +1,81 @@
+@media  screen and (max-width: 599px){
+  .service{
+    height: 128vh; 
+ }
+
+ .delivery{
+   height: 120vh;
+ }
+
+  .delivery .container{
+    display: block;
+  }
+
+  .delivery .bouquet{
+    width: 100%;
+     padding: 0;
+  }
+
+  .delivery .bouquet .content .first_price {
+    position: absolute;
+    top: 200px;
+  }
+
+  .delivery .calender {
+    width: 100%;
+  }
+
+  .delivery .calender .title{
+    margin-top: 100px;
+  }
+
+  .flower .container{
+    height: 130vh;
+  }
+
+  .flower .container .img {
+    max-width: 320px;
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+  }
+
+  .flower .container .body {
+    margin-top: 500px;
+  }
+
+
+  .vase .container .img {
+    height: 25%;
+    width: 50%;
+    position: absolute;
+    top:200px;
+    left: 0;
+  }
+
+  .vase .container .body {
+    padding-top: 60vmin;
+  }
+
+
+  .vase .container .body .main_tag h3 {
+    padding-top: 10vw;
+  }
+
+  .service2 {
+    padding-top: 8vmin;
+    padding-bottom: 8vmin;
+  }
+  .service2 .service_plan .item img{
+    width: 80%;
+  }
+
+  .download {
+    height: 60vh;
+  }
+
+  .download .main_logo {
+    margin: 0 auto;
+  }
+}
