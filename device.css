@@ -45,7 +45,6 @@
   .flower .container .img{
     width: 50%;
     height: 30%;
-    background-image: url(../img/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,7 +138,6 @@
     height: 300px;
     min-width: 450px;
     margin: 0;
-    background-image: url(../img/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
